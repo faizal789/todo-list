@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  label {
+    @apply text-lg text-very-dark-grayish-blue-ligth-theme font-extrabold;
+  }
+
+  span {
+    @apply text-sm text-dark-grayish-blue-ligth-theme font-extrabold cursor-pointer;
+  }
+
+  body{
+    @apply dark:bg-very-dark-blue-dark-theme bg-very-light-gray-ligth-theme
+  }
+}
